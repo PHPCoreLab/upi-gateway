@@ -10,7 +10,7 @@
 ## Installation
 
 ```bash
-composer require phpcorelab/dynamic-upi
+composer require phpcorelab/upi-gateway
 ```
 
 Requires PHP 8.1+.
