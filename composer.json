@@ -1,6 +1,6 @@
 {
     "name": "phpcorelab/upi-gateway",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Provider-agnostic PHP library for UPI QR code generation and payment status polling",
     "type": "library",
     "license": "MIT",
