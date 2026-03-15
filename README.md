@@ -10,7 +10,7 @@
 ## Installation
 
 ```bash
-composer require PHPCoreLab/upi-gateway
+composer require phpcorelab/dynamic-upi
 ```
 
 Requires PHP 8.1+.
@@ -198,12 +198,6 @@ composer test
 composer analyse   # PHPStan level 8
 ```
 
-## Publishing to Packagist
-
-1. Replace `PHPCoreLab` in `composer.json` with your Packagist vendor name.
-2. Tag: `git tag v1.0.0 && git push --tags`
-3. Submit repo URL at packagist.org → Submit.
-4. Enable the GitHub webhook for auto-updates.
 
 ## License
 
