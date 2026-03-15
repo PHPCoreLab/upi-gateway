@@ -3,9 +3,9 @@
 > Provider-agnostic PHP library for UPI QR code generation and payment status polling.
 > Switch payment gateways — and environments — with a single config change.
 
-[![Latest Version](https://img.shields.io/packagist/v/PHPCoreLab/upi-gateway)](https://packagist.org/packages/PHPCoreLab/upi-gateway)
-[![PHP Version](https://img.shields.io/packagist/php-v/PHPCoreLab/upi-gateway)](https://packagist.org/packages/PHPCoreLab/upi-gateway)
-[![License](https://img.shields.io/packagist/l/PHPCoreLab/upi-gateway)](LICENSE)
+[![Latest Version](https://img.shields.io/packagist/v/phpcorelab/upi-gateway)](https://packagist.org/packages/PHPCoreLab/upi-gateway)
+[![PHP Version](https://img.shields.io/packagist/php-v/phpcorelab/upi-gateway)](https://packagist.org/packages/PHPCoreLab/upi-gateway)
+[![License](https://img.shields.io/packagist/l/phpcorelab/upi-gateway)](LICENSE)
 
 ## Installation
 
