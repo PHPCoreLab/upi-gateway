@@ -68,9 +68,17 @@ final class RazorpayAdapter implements UpiProviderInterface
 
             $data = json_decode((string) $response->getBody(), true);
 
+            $upiString = sprintf(
+                'upi://pay?pa=%s&pn=%s&am=%s&cu=INR&tr=%s',
+                urlencode($config['vpa'] ?? 'yourmerchant@razorpay'), // your merchant VPA
+                urlencode($config['merchant_name'] ?? 'Merchant'),
+                number_format($order->amountPaisa / 100, 2, '.', ''),
+                $data['id'] // QR code ID as transaction reference
+            );
+
             return new QrResult(
                 transactionId: $data['id'],
-                qrString:      $data['image_url'],
+                qrString:      $upiString,
                 qrImageUrl:    $data['image_url'],
                 expiresAt:     $data['close_by'] ?? null,
                 raw:           $data,
